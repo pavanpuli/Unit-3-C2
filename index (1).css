@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#container1{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+#container1>:nth-child(1){
+    margin: 25px;
+    color: white;
+    font-size: 20px;
+}
+#sub_menu{
+    display: flex;
+    margin: 25px;
+}
+#sub_menu>:nth-child(1)>a{
+    margin: 0 25px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+#sub_menu>:nth-child(2)>a{
+    margin: 0 25px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+#sub_menu>:nth-child(3)>a{
+    margin: 0 25px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
